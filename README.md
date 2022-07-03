@@ -1,1 +1,2 @@
 # SpiritOfTheInternet
+test automate
