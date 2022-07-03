@@ -1,6 +1,3 @@
 # SpiritOfTheInternet
 test automate
-
-test
-
-testtest
+fuck this automation
