@@ -1,7 +1,8 @@
 name: Check PR can be merged
 on:
   pull_request:
-    types: [labeled]
+    types: 
+      - labeled
     branches:
       - main/* # The branch you want to automatically merge pull request
 jobs:
