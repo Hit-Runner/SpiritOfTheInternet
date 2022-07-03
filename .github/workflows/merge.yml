@@ -1,10 +1,19 @@
 name: Check PR can be merged
 on:
-  pull_request:
-    types: 
+  pull_request_target:
+    types:
       - labeled
-    branches:
-      - main/* # The branch you want to automatically merge pull request
+      - unlabeled
+      - synchronize
+      - opened
+      - edited
+      - ready_for_review
+      - reopened
+      - unlocked
+  pull_request_review:
+    types:
+      - submitted
+  status: {}
 jobs:
   Run-Actions:
     runs-on: ubuntu-latest
