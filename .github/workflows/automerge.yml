@@ -9,4 +9,6 @@ jobs:
     steps:
       - name: auto-pull-request-merge
         uses: KeisukeYamashita/auto-pull-request-merge@v1.0.6
+        with:
+          timeoutSecondes: 120
 
