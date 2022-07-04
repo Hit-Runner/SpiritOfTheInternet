@@ -18,9 +18,11 @@ jobs:
   automerge:
     runs-on: ubuntu-latest
     steps:
-      - name: automerge
-        uses: "pascalgn/automerge-action@629929da409181990e4e638dcf84a74e11d3af66"
+      - name: Merge pull requests (automerge-action)
+        uses: pascalgn/automerge-action@v0.15.3
+
         env:
+          LOG: "TRACE"
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
           MERGE_LABELS: "automerge,!work in progress"
           MERGE_METHOD: "squash"
