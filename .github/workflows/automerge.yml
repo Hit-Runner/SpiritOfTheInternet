@@ -22,7 +22,6 @@ jobs:
         uses: pascalgn/automerge-action@v0.15.3
 
         env:
-          LOG: "TRACE"
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
           MERGE_LABELS: "automerge,!work in progress"
           MERGE_METHOD: "squash"
