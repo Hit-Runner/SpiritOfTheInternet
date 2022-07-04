@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>minimum.jpg</file>
+    <file>minimum.png</file>
+    <file>more.jpg</file>
+    <file>more.png</file>
+    <file>ok.jpg</file>
+    <file>ok.png</file>
+    <file>password.jpg</file>
+    <file>password.png</file>
+    <file>quit.jpg</file>
+    <file>quit.png</file>
+    <file>user.jpg</file>
+    <file>user.png</file>
+  </qresource>
+</RCC>
