@@ -1,4 +1,4 @@
 automerge:
  - '*'
- - 'CyberSpaceSecurity/*'
- - 'ComputerScience/*'
+ - 'CyberSpaceSecurity/**/*'
+ - 'ComputerScience/**/*'
