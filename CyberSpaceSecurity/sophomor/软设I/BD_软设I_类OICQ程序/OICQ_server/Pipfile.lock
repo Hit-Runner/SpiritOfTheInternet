@@ -1,0 +1,28 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "e54a54de96a8a2b93eddc938d8d7b8bfebf5e7b46858af84215e7e06a09c3617"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.6"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "django-ipware": {
+            "hashes": [
+                "sha256:c7df8e1410a8e5d6b1fbae58728402ea59950f043c3582e033e866f0f0cf5e94"
+            ],
+            "index": "pypi",
+            "version": "==3.0.2"
+        }
+    },
+    "develop": {}
+}
